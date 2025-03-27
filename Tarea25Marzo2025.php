@@ -5,11 +5,11 @@
 <body>
 
 <?php
-$nac = $_POST['nacimiento']
+$nac = $_POST['nacimiento'];
 
 $dif = 2025- $nac;
 
-if( dif >= 18){
+if( $dif >= 18){
     echo("Eres mayor de edad por lo tanto tus datos fueron  guardados");
     #No se guardar datos asi que le consulto al profe, pero la idea es esta
 }
